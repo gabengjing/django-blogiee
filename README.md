@@ -37,6 +37,6 @@ python manage.py runserver
 ```
 ## Now you can see the home page by going to 127.0.0.1:8000
 
-## I am working under development of transforming PWA into APK using trusted web activity(TWA) whose code is in "[django-blogiee-twa]"(https://github.com/codekushi/django-blogiee/tree/django-blogiee-twa) branch
+## I am working under development of transforming PWA into APK using trusted web activity(TWA) whose code is in [django-blogiee-twa](https://github.com/codekushi/django-blogiee/tree/django-blogiee-twa) branch
 
 ### A detailed blog post on customization is found at [Customizing Django-Blogiee](https://hackingandprogramming.com/tutorial/customize-django-blogiee)
