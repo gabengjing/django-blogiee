@@ -9,13 +9,13 @@ A Django based Blog App with Progressive Web App Support
 - django-otp
 - django-admin-honeypot
 
-You can deploy the app in any hosting service that supports Flask. You can use my [Digitalocean referral link](https://m.do.co/c/7d066b069429) and get $100 credit for 60 days
+You can deploy the app in any hosting service that supports Django. You can use my [Digitalocean referral link](https://m.do.co/c/7d066b069429) and get $100 credit for 60 days
 
 ## App features
 - Integrated with Django Summernote Editor
 - Django Admin security with Django Admin Honeypot and Django OTP
 - Responsive Web pages with Dark Mode
-- Progressive Web App
+- custom Progressive Web App
 - Custom Admin Dashboard
 
 ### Instructions to use
