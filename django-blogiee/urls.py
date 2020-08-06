@@ -35,7 +35,6 @@ admin.empty_value_display = '**Empty**'
 urlpatterns = [
     path('djangoblogieeadmin/', admin.site.urls),
     path('', include('blog.urls')),
-    re_path('', include('pwa.urls')),
     path('summernote/', include('django_summernote.urls')),
     path("sitemap.xml", sitemap, {"sitemaps": sitemaps}, name="django.contrib.sitemaps.views.sitemap"),
     path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),

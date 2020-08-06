@@ -1,11 +1,30 @@
-{% load pwa %}
 <!DOCTYPE html>
 <html>
 
 <head>
   <title>Django Blogiee</title>
-  {% progressive_web_app_meta %}
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="manifest" href="/manifest.json">
+  <meta name="application-name" content="Django Blogiee PWA">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Django Blogiee PWA">
+<link rel="apple-touch-icon" href="/static/icons/Django-Blogiee.png">
+<link rel="icon" href="/static/icons/Django-Blogiee.png">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script type="application/javascript">
+    // Initialize the service worker
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/serviceworker.js', {
+            scope: '/'
+        }).then(function (registration) {
+            // Registration was successful
+            console.log('django-blogiee: ServiceWorker registration successful with scope: ', registration.scope);
+        }, function (err) {
+            // registration failed :(
+            console.log('django-blogiee: ServiceWorker registration failed: ', err);
+        });
+    }
+</script>
   {%block amptags %}{% endblock %}
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <style>
