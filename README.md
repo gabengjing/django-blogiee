@@ -1,6 +1,6 @@
 # django-blogiee
 A Django based Blog App with Progressive Web App support and Trusted Web Activity compatiable
-[![logo](https://github.com/codekushi/django-blogiee/blob/master/blog/static/icons/Django-Blogiee.png?raw=true){:width=100%}](https://django-blogiee.herokuapp.com)
+[![logo](https://github.com/codekushi/django-blogiee/blob/master/blog/static/icons/Django-Blogiee.png?raw=true)](https://django-blogiee.herokuapp.com)
 
 ## Dependencies used
 - django
