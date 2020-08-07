@@ -1,6 +1,6 @@
 # django-blogiee
 A Django based Blog App with Progressive Web App support and Trusted Web Activity compatiable
-[button url="https://django-blogiee.herokuapp.com]{:width=100% text-align=center}
+[button url="https://django-blogiee.herokuapp.com]
 ![logo](https://github.com/codekushi/django-blogiee/blob/master/blog/static/icons/Django-Blogiee.png?raw=true){:width=100%}
 
 ## Dependencies used
