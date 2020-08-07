@@ -1,7 +1,7 @@
 # django-blogiee
-A Django based Blog App with Progressive Web App Support
+A Django based Blog App with Progressive Web App support and Trusted Web Activity compactiable
 
-![logo](https://github.com/codekushi/django-blogiee/blob/master/blog/static/icons/Django-Blogiee.png?raw=true)
+![logo](https://github.com/codekushi/django-blogiee/blob/master/blog/static/icons/Django-Blogiee.png?raw=true){width=100%}
 
 ## Dependencies used
 - django
@@ -37,6 +37,8 @@ python manage.py runserver
 ```
 ## Now you can see the home page by going to 127.0.0.1:8000
 
-## I am working under development of transforming PWA into APK using trusted web activity(TWA) whose code is in [django-blogiee-twa](https://github.com/codekushi/django-blogiee/tree/django-blogiee-twa) branch
+## I am working under development of transforming [PWA](https://django-blogiee.herokuapp.com) into APK using [Trusted web activity(TWA)](https://github.com/codekushi/django-blogiee/blob/deploy-twa/twa-app/app-release-signed.apk) whose code is in [deploy-twa](https://github.com/codekushi/django-blogiee/tree/deploy-twa) branch
+
+## This branch contains [deployed website](https://django-blogiee.herokuapp.com) and APK file for the deployed wesite built using Trusted Web Activity(TWA) using [Bubblewrap](https://github.com/GoogleChromeLabs/bubblewrap)
 
 ### A detailed blog post on customization is found at [Customizing Django-Blogiee](https://hackingandprogramming.com/tutorial/customize-django-blogiee)
