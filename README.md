@@ -14,8 +14,7 @@ You can deploy the app in any hosting service that supports Django. You can use 
 - Integrated with Django Summernote Editor
 - Django Admin security with Django Admin Honeypot and Django OTP
 - Responsive Web pages with Dark Mode
-- custom Progressive Web App(TWA)
-- Custom Admin Dashboard
+- custom Progressive Web App(TWA compatiable)
 
 ### Instructions to use
 - Install Python3
