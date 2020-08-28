@@ -1,5 +1,5 @@
 # django-blogiee
-A Django based Blog App where users can add, edit, publish and delete WYSIWYG editor,TOTP token and Honeypot security with Progressive Web App support and Trusted Web Activity compatiable
+A Blog based on Django where users can add, edit, publish and delete posts with additional features of custom  WYSIWYG editor Summernote, TOTP token and Honeypot security for users, with Progressive Web App support, Trusted Web Activity compatiable and Minimal customized Admin Dashboard
 [![logo](https://github.com/codekushi/django-blogiee/blob/master/blog/static/icons/Django-Blogiee.png?raw=true)](https://django-blogiee.herokuapp.com)
 
 ## Dependencies used
