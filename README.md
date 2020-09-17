@@ -2,7 +2,7 @@
 
 A Blog based on Django where users can add, edit, publish and delete posts with additional features of custom  WYSIWYG editor Summernote, TOTP token and Honeypot security for users, with Progressive Web App support, Trusted Web Activity compatiable and Minimal customized Admin Dashboard
 
-![logo](https://github.com/codekushi/django-blogiee/blob/master/blog/static/icons/Django-Blogiee.png?raw=true)
+![logo](https://github.com/kushwanth/django-blogiee/blob/master/blog/static/icons/Django-Blogiee.png?raw=true)
 
 ## Dependencies used
 - django
